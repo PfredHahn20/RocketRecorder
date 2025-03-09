@@ -1,8 +1,5 @@
 #!/bin/bash
 
-LOG_FILE="/home/pi/logs/stop_recording.log"
-exec > $LOG_FILE 2>&1
-
 CONTROL_FILE="/home/pi/stop_recording"
 PID=$(cat /home/pi/recording_pid)
 
